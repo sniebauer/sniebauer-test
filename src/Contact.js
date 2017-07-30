@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './Contact.css';
+import './css/Contact.css';
 import ContactForm from './Contact-form.js';
+import Social from './Social.js';
 
 
 class Contact extends Component {
@@ -12,7 +13,7 @@ class Contact extends Component {
           <ContactForm />
         </section>
         <section className='Social-box'>
-
+          <Social />
         </section>
 
       </div>

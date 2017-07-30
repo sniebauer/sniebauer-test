@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Contact-form.css'
+import './css/Contact-form.css'
 
 class ReactFormLabel extends React.Component {
   constructor() {
@@ -74,7 +74,7 @@ class ContactForm extends React.Component {
 
   render() {
     return(
-      <form className='contact-form' action="mailto:sniebauer@gmail.com" method="POST" target="_blank">
+      <form className='contact-form' action="https://www.enformed.io/hleree4v" method="POST">
         <fieldset className='form-group'>
           <ReactFormLabel htmlFor='formName' title='Name:' />
 

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import './css/materialize.css';
 import './App.css';
+
 import Header from './Header.js';
 import Title from './Title.js';
 import About from './About.js';
 import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
+
 
 
 class App extends Component {
@@ -21,15 +24,17 @@ class App extends Component {
           <Title />
         </section>
 
+        <a name='work'></a>
+        <section className='Work-s'>
+          <Work />
+        </section>
+
         <a name='about'></a>
         <section className='About-s'>
           <About />
         </section>
 
-        <a name='work'></a>
-        <section className='Work-s'>
-          <Work />
-        </section>
+
 
         <a name='contact'></a>
         <section className='Contact-s'>

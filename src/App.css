@@ -6,7 +6,6 @@
 
 }
 
-
 .Header-li {
   list-style: none;
   float: left;
@@ -36,7 +35,7 @@
   min-width: auto;
   margin-top: 15px;
   font-weight: 300;
-  width:340px;
+  width: 340px;
 }
 
 .steves-h2 {
@@ -85,13 +84,13 @@
 .About-s {
   height: 250px;
   background-color: #cdcdcd;
-  height: 500px;
+  height: 450px;
 }
 
 
 .Work-s {
   background-color: #88bbd6;
-  height:500px;
+  height: 700px;
 }
 
 .Title-s {

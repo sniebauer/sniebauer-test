@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import './Work.css';
+import './css/Work.css';
 import WorkCarousel from './WorkCarousel.js'
-
-
 
 
 class Work extends Component {
