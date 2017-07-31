@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './css/materialize.css';
 import './App.css';
 
 import Header from './Header.js';

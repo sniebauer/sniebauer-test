@@ -7,67 +7,9 @@ class Photos extends Component {
   render() {
     return (
       <div className='photos-div'>
-      <Carousel options={{ fullWidth: true, indicators: true }}>
-	<div className='red'>
-	<MediaBox src="https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/301e13c7-3a2f-4aa4-891a-5487373029c8.jpg" caption="A demo media box1" width="650"/>
-	</div>
-	<div className='amber'>
-		<h2>Second Panel</h2>
-		<p className='white-text'>This is your second panel</p>
-	</div>
-	<div className='green'>
-		<h2>Third Panel</h2>
-		<p className='white-text'>This is your third panel</p>
-	</div>
-	<div className='blue'>
-		<h2>Fourth Panel</h2>
-		<p className='white-text'>This is your fourth panel</p>
-	</div>
-  <div className='red'>
-    <h2>Fifth Panel</h2>
-    <p className='white-text'>This is your first panel</p>
-  </div>
-  <div className='amber'>
-    <h2>6th Panel</h2>
-    <p className='white-text'>This is your second panel</p>
-  </div>
-  <div className='green'>
-    <h2>7th Panel</h2>
-    <p className='white-text'>This is your third panel</p>
-  </div>
-  <div className='blue'>
-    <h2>8th Panel</h2>
-    <p className='white-text'>This is your fourth panel</p>
-  </div>
-  <div className='red'>
-    <h2>9th Panel</h2>
-    <p className='white-text'>This is your first panel</p>
-  </div>
-  <div className='amber'>
-    <h2>10th Panel</h2>
-    <p className='white-text'>This is your second panel</p>
-  </div>
-  <div className='green'>
-    <h2>11th Panel</h2>
-    <p className='white-text'>This is your third panel</p>
-  </div>
-  <div className='blue'>
-    <h2>12th Panel</h2>
-    <p className='white-text'>This is your fourth panel</p>
-  </div>
-  <div className='green'>
-    <h2>13th Panel</h2>
-    <p className='white-text'>This is your third panel</p>
-  </div>
-  <div className='blue'>
-    <h2>14th Panel</h2>
-    <p className='white-text'>This is your fourth panel</p>
-  </div>
 
-</Carousel>
       <Carousel options={{ fullWidth: true,
-
-        padding: 5
+        indicators: true
       }} images={[
         "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/301e13c7-3a2f-4aa4-891a-5487373029c8.jpg",
       "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/41f003ed-33c4-42c0-b89f-3ef9f56eb2a0.jpg",
