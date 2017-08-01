@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import {Container} from 'react-materialize';
 import Header from './Header.js';
 import Title from './Title.js';
 import About from './About.js';
@@ -10,39 +10,48 @@ import Footer from './Footer.js';
 
 
 
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-        <section className='Header-s'>
-          <Header />
-        </section>
+        <Container>
+          <section className='Header-s'>
+            <Header />
+          </section>
+        </Container>
 
         <section className='Title-s'>
           <Title />
         </section>
 
-        <a name='work'></a>
-        <section className='Work-s'>
-          <Work />
-        </section>
+        <Container>
+          <a name='work'></a>
+            <section className='Work-s'>
+              <Work />
+            </section>
+        </Container>
 
-        <a name='about'></a>
-        <section className='About-s'>
-          <About />
-        </section>
+        <Container>
+          <a name='about'></a>
+            <section className='About-s'>
+              <About />
+            </section>
+        </Container>
 
 
+      <Container>
+      <a name='contact'></a>
+      <section className='Contact-s'>
+      <Contact />
+      </section>
+      </Container>
 
-        <a name='contact'></a>
-        <section className='Contact-s'>
-          <Contact />
-        </section>
-
-        <section className='Footer-s'>
-          <Footer />
-        </section>
+      <Container>
+      <section className='Footer-s'>
+      <Footer />
+      </section>
+      </Container>
 
       </div>
     );

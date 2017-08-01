@@ -6,24 +6,10 @@
 
 }
 
-.Header-li {
-  list-style: none;
-  float: left;
-  padding: 10px;
-  text-transform: uppercase;
-  padding-top: -20px;
+.App Container {
+  margin: 0;
 }
 
-.Header-a {
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-  border: 3px solid white;
-}
-
-.Header-s a:hover {
-    background-color: #cdcdcd;
-  }
 
 .steves-h1 {
   border: 3px solid white;
@@ -75,6 +61,25 @@
   width: 100%;
 }
 
+.Header-li {
+  list-style: none;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+  padding-top: -20px;
+}
+
+.Header-a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border: 3px solid white;
+}
+
+.Header-s a:hover {
+    background-color: #cdcdcd;
+  }
+
 .Contact-s, .About-s, .Work-s, .Footer-s, .Title-s {
   border: solid 3px white;
   margin: 20px;
@@ -82,15 +87,14 @@
 }
 
 .About-s {
-  height: 250px;
-  background-color: #cdcdcd;
-  height: 450px;
+  background-color: #88bbd6;
+
 }
 
 
 .Work-s {
-  background-color: #88bbd6;
-  height: 700px;
+  background-color: #cdcdcd;
+
 }
 
 .Title-s {
@@ -107,7 +111,6 @@
   background-color: #88bbd6;
 
 }
-
 
 
 body {

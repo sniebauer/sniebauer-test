@@ -15,5 +15,6 @@
 
 .About-photo img {
   border: 3px dashed white;
-    margin-top: 20px;
+  margin-top: 20px;
+  width: 250px;
 }

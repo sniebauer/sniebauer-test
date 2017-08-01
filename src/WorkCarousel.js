@@ -9,9 +9,9 @@ class WorkCarousel extends React.Component {
   render () {
     return (
       <Tabs className='Work-tabs'>
-    		<Tab title="Video">Video</Tab>
-    		<Tab title="Photo" active><Photos /></Tab>
-    		<Tab title="Web">Web</Tab>
+    		<Tab title="Video" className='Work-tab'>Video</Tab>
+    		<Tab title="Photo" active className='Work-tab'><Photos /></Tab>
+    		<Tab title="Web" className='Work-tab'>Web</Tab>
     </Tabs>
     );
   }

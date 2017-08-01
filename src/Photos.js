@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './css/Photos.css'
-import {Carousel, Tabs, Tab, MediaBox} from 'react-materialize';
+import {Carousel, Tabs, Tab, MediaBox, Container} from 'react-materialize';
 
 
 class Photos extends Component {
   render() {
     return (
+<Container>
       <div className='photos-div'>
 
-      <Carousel options={{ fullWidth: true,
+      <Carousel s={6} options={{ fullWidth: true,
         indicators: true
       }} images={[
         "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/301e13c7-3a2f-4aa4-891a-5487373029c8.jpg",
@@ -25,10 +26,11 @@ class Photos extends Component {
       "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/60d143ef-9ec1-4f5f-826b-22dc91c98444.jpg",
       "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/54adb50b-7f8d-4a3a-9ea7-058225e2f6b4.jpg",
       "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/caf4ccb7-1e79-4555-9e30-eb111099513e.jpg"
-      ]} />
+    ]} / >
 
 
       </div>
+      </Container>
     )
   }
 }

@@ -1,13 +1,16 @@
 .Work-tabs {
-  text-transform: uppercase;
-  color: white;
   border: 3px white dashed;
-  font-weight: 300;
   width: 300px;
   margin: auto;
   margin-top: 25px;
   padding: 7px;
-  font-size: 25px;
+}
+
+.Work-tab {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
   background: transparent;
   font-size: 30px;
+  text-align: center;
 }
