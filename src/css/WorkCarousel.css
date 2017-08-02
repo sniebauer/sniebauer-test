@@ -1,16 +1,35 @@
-.Work-tabs {
+.tabs.Work-tabs {
   border: 3px white dashed;
-  width: 300px;
+  width: 400px;
   margin: auto;
   margin-top: 25px;
-  padding: 7px;
-}
-
-.Work-tab {
+  background: transparent;
   text-transform: uppercase;
   color: white;
   font-weight: 300;
-  background: transparent;
-  font-size: 30px;
+  font-size: 1.20rem;
   text-align: center;
+
+}
+
+.tabs.Work-tabs a {
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: #88bbd6;
+  color: white;
+
+}
+
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background-color: white;
+  will-change: left, right;
 }

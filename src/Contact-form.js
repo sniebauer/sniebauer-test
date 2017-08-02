@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './css/Contact-form.css'
+import './css/Contact-form.css';
+import {Container} from 'react-materialize';
 
 class ReactFormLabel extends React.Component {
   constructor() {
@@ -74,11 +75,12 @@ class ContactForm extends React.Component {
 
   render() {
     return(
+
       <form className='contact-form' action="https://www.enformed.io/hleree4v" method="POST">
         <fieldset className='form-group'>
           <ReactFormLabel htmlFor='formName' title='Name:' />
 
-          <input id='formName' className='s-form-input' name='name' type='text' ref='formName' required onChange={this.handleChange} value={this.state.name} />
+          <input id='formName'  className='s-form-input' name='name' type='text' ref='formName' required onChange={this.handleChange} value={this.state.name} />
         </fieldset>
 
         <fieldset className='form-group'>
@@ -92,6 +94,7 @@ class ContactForm extends React.Component {
 
           <input id='formSubject' className='s-form-input' name='subject' type='text' required onChange={this.handleChange} value={this.state.subject} />
         </fieldset>
+        <input type='hidden' name='*honeypot' />
 
         <fieldset className='form-group'>
           <ReactFormLabel htmlFor='formMessage' title='Message:' />
@@ -100,9 +103,10 @@ class ContactForm extends React.Component {
         </fieldset>
 
         <div className='form-group'>
-          <input id='formButton' className='btn' type='submit' placeholder='Send message' />
+          <input id='formButton' className='btn-2' type='submit' placeholder='Send message' />
         </div>
       </form>
+
     )
   }
 };

@@ -6,10 +6,10 @@ import {Carousel, Tabs, Tab, MediaBox, Container} from 'react-materialize';
 class Photos extends Component {
   render() {
     return (
-<Container>
-      <div className='photos-div'>
 
-      <Carousel s={6} options={{ fullWidth: true,
+      <div className='photos-div'>
+      <section className='photo-carousel'>
+      <Carousel options={{ fullWidth: true,
         indicators: true
       }} images={[
         "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/301e13c7-3a2f-4aa4-891a-5487373029c8.jpg",
@@ -27,10 +27,11 @@ class Photos extends Component {
       "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/54adb50b-7f8d-4a3a-9ea7-058225e2f6b4.jpg",
       "https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/caf4ccb7-1e79-4555-9e30-eb111099513e.jpg"
     ]} / >
+    </section>
 
-
+      <a href="http://pizzatrees.tumblr.com/" target="_new" className="btn-2">More photos</a>
       </div>
-      </Container>
+
     )
   }
 }

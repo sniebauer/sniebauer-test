@@ -6,10 +6,6 @@
 
 }
 
-.App Container {
-  margin: 0;
-}
-
 
 .steves-h1 {
   border: 3px solid white;
@@ -17,7 +13,7 @@
   color: White;
   margin: auto;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 4rem;
   min-width: auto;
   margin-top: 15px;
   font-weight: 300;

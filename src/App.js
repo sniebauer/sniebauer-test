@@ -9,8 +9,6 @@ import Contact from './Contact.js';
 import Footer from './Footer.js';
 
 
-
-
 class App extends Component {
   render() {
     return (

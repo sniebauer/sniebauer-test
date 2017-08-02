@@ -8,7 +8,7 @@ import Photos from "./Photos.js"
 class WorkCarousel extends React.Component {
   render () {
     return (
-      <Tabs className='Work-tabs'>
+      <Tabs className='Work-tabs' tabWidth={1}>
     		<Tab title="Video" className='Work-tab'>Video</Tab>
     		<Tab title="Photo" active className='Work-tab'><Photos /></Tab>
     		<Tab title="Web" className='Work-tab'>Web</Tab>

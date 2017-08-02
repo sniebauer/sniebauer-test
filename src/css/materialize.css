@@ -5070,7 +5070,7 @@ small {
 .tabs .indicator {
   position: absolute;
   bottom: 0;
-  height: 2px;
+  height: 3px;
   background-color: #f6b2b5;
   will-change: left, right;
 }

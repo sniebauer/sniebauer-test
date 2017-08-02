@@ -25,7 +25,7 @@ label {
 
 }
 
-.s-form-input,
+.form-group .s-form-input,
 .s-form-textarea {
   display: block;
   padding: .5rem;
@@ -43,21 +43,15 @@ label {
   background: white;
 }
 
-.btn {
-  padding: 10px;
-  margin-top: 5px;
+.btn-2 {
+  margin-top: 10px;
+  padding: 7px;
   width:100px;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
-  white-space: nowrap;
+  color: white;
   background-color: transparent;
   border: 3px solid white;
-  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
-  cursor: pointer;
-  user-select: none;
-  -webkit-transform: perspective(0px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 0px transparent;
   overflow: hidden;
   -webkit-transition-duration: 0.3s;
@@ -66,7 +60,7 @@ label {
   transition-property: color, background-color;
   font-size: 15px;
 }
-.btn:hover, .btn:focus, .btn:active {
+.btn-2:hover, .btn-2:focus, .btn-2:active {
   background-color: #88bbd6;
   color: white;
 }
