@@ -9,9 +9,8 @@ class Work extends Component {
     return (
       <div className='Work-div'>
         <h2 className='steves-h2'>Work</h2>
-        <section className="Work-Carousel">
-          <WorkCarousel />
-        </section>
+        <WorkCarousel />
+
 
       </div>
     )

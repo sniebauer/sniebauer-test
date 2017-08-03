@@ -29,7 +29,7 @@ class Photos extends Component {
     ]} / >
     </section>
 
-      <a href="http://pizzatrees.tumblr.com/" target="_new" className="btn-2">More photos</a>
+      <a href="http://pizzatrees.tumblr.com/" target="_new" className="btn-2">More photos →</a>
       </div>
 
     )

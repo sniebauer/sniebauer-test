@@ -2,7 +2,7 @@
   width: 100%;
   text-align: center;
   margin: auto;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 
@@ -10,4 +10,5 @@
 .photo-carousel {
   border: solid white 3px;
   margin-bottom: 20px;
+  width: 100%;
 }

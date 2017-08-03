@@ -11,13 +11,13 @@
   border: 3px solid white;
   padding: 7px;
   color: White;
-  margin: auto;
+  margin: 0 auto;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3.5rem;
   min-width: auto;
   margin-top: 15px;
   font-weight: 300;
-  width: 340px;
+  width: 320px;
 }
 
 .steves-h2 {
@@ -46,35 +46,7 @@
   font-size: 25px;
 }
 
-.Header-s {
-  background-color: #99d3df;
-  height: 90px;
-  padding: 10px;
-  color: white;
-  text-align: left;
-  border:solid 3px white;
-  padding-bottom: 40px;
-  width: 100%;
-}
 
-.Header-li {
-  list-style: none;
-  float: left;
-  padding: 10px;
-  text-transform: uppercase;
-  padding-top: -20px;
-}
-
-.Header-a {
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-  border: 3px solid white;
-}
-
-.Header-s a:hover {
-    background-color: #cdcdcd;
-  }
 
 .Contact-s, .About-s, .Work-s, .Footer-s, .Title-s {
   border: solid 3px white;

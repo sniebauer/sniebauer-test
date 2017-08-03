@@ -1,35 +1,50 @@
 .tabs.Work-tabs {
-  border: 3px white dashed;
-  width: 400px;
-  margin: auto;
   margin-top: 25px;
   background: transparent;
   text-transform: uppercase;
   color: white;
   font-weight: 300;
-  font-size: 1.20rem;
+  font-size: 1.2rem;
   text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 
+
+}
+
+.tabs.Work-tabs .tab {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .tabs.Work-tabs a {
   color: white;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 1.2rem;
   text-align: center;
-
+  border: 3px white dashed;
+  text-overflow: ellipsis;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
   background-color: #88bbd6;
   color: white;
+  border: 3px white solid;
 
 }
 
 .tabs .indicator {
+  display: none;
   position: absolute;
   bottom: 0;
   height: 3px;
   background-color: white;
   will-change: left, right;
+  border: 3px white solid;
 }
