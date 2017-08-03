@@ -23,7 +23,7 @@ class App extends Component {
           <Title />
         </section>
 
-
+<section className='below-title'>
           <a name='work'></a>
             <section className='Work-s'>
               <Work />
@@ -43,13 +43,13 @@ class App extends Component {
       <section className='Contact-s'>
       <Contact />
       </section>
-      
 
-      <Container>
+
+
       <section className='Footer-s'>
       <Footer />
       </section>
-      </Container>
+    </section>
 
       </div>
     );

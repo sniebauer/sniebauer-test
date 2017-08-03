@@ -26,13 +26,14 @@ label {
   display: block;
   color: white;
   font-size: 1rem;
+  letter-spacing: 5px;
 }
 
 input, .s-form-input,
 .s-form-textarea {
   display: block;
   padding: 1rem;
-  width: 97%;
+
   font-size: 1rem;
   line-height: 1.25;
   color: #55595c;
