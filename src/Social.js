@@ -8,11 +8,13 @@ class Social extends Component {
     return (
       <div className='Social-div'>
         <ul className='social-list'>
-          <li>Twitter</li>
-          <li>LinkedIn</li>
-          <li>Facebook</li>
-          <li>Vimeo</li>
-          <li>Tumblr</li>
+          <li className='icon-list'><i className="fa fa-twitter" aria-hidden="true"></i></li>
+          <li className='icon-list'><i className="fa fa-linkedin-square" aria-hidden="true"></i>
+</li>
+          <li className='icon-list'><i className="fa fa-facebook-square" aria-hidden="true"></i></li>
+          <li className='icon-list'><i className="fa fa-vimeo-square" aria-hidden="true"></i></li>
+          <li className='icon-list'><i className="fa fa-tumblr-square" aria-hidden="true"></i></li>
+          <li className='icon-list'><i className="fa fa-instagram" aria-hidden="true"></i></li>
         </ul>
       </div>
     )
