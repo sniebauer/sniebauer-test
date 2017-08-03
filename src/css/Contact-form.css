@@ -31,14 +31,12 @@ label {
 
 input, .s-form-input,
 .s-form-textarea {
-  display: block;
-  padding: 1rem;
-
   font-size: 1rem;
   line-height: 1.25;
   color: #55595c;
   border: 0;
-  margin: auto;
+  width: 95%;
+
 }
 
 input:not([type]),
