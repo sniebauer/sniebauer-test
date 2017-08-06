@@ -10,9 +10,21 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-
-
+  width: 50%;
 }
+
+@media (min-width: 320px) {
+  .tabs.Work-tabs {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .tabs.Work-tabs {
+    width: 50%;
+  }
+}
+
 
 .tabs.Work-tabs .tab {
   -webkit-box-flex: 1;
@@ -30,13 +42,13 @@
   text-align: center;
   border: 3px white dashed;
   text-overflow: ellipsis;
+  letter-spacing: 3px;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
   background-color: #88bbd6;
   color: white;
   border: 3px white solid;
-
 }
 
 .tabs .indicator {

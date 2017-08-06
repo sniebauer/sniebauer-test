@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import './css/Contact-form.css';
-import {Container, Row, Input} from 'react-materialize';
+import {Row} from 'react-materialize';
 
 class ReactFormLabel extends React.Component {
-  constructor() {
-    super();
-  }
+
 
   render() {
     return(
@@ -78,7 +76,7 @@ class ContactForm extends React.Component {
 
 
       <Row>
-      		
+
 
           <form className='contact-form' action="https://www.enformed.io/hleree4v" method="POST">
             <fieldset className='form-group'>

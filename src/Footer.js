@@ -6,10 +6,10 @@ class Footer extends Component {
   render() {
     let name = 'SNIEBAUER';
     return (
-      <div className='Title-div'>
+      <div className='footer-div'>
         <p>{name}</p>
 
-
+      
 
       </div>
     )

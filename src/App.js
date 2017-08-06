@@ -1,16 +1,25 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Container} from 'react-materialize';
+
 import Header from './Header.js';
 import Title from './Title.js';
 import About from './About.js';
 import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
+import Vimeo from 'vimeo';
+import Video from './Video.js'
+const V = Vimeo.Vimeo;
+
+
 
 
 class App extends Component {
+
+
+
   render() {
+
     return (
       <div className="App">
 

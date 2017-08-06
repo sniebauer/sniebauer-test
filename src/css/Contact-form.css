@@ -17,8 +17,6 @@
   border: 0;
 }
 
-
-
 label {
   padding: 5px;
   text-transform: uppercase;
@@ -35,8 +33,7 @@ input, .s-form-input,
   line-height: 1.25;
   color: #55595c;
   border: 0;
-  width: 95%;
-
+  width: 95.5%;
 }
 
 input:not([type]),
@@ -96,6 +93,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 .btn-2 {
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 7px;
   width:100px;
   text-align: center;
@@ -111,7 +109,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   transition-property: color, background-color;
   font-size: 15px;
   background-color: transparent !important;
-  margin: auto;
+
 }
 .btn-2:hover, .btn-2:focus, .btn-2:active {
   background-color: #88bbd6 !important;
