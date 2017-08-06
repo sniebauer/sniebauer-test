@@ -42,7 +42,7 @@ class WorkCarousel extends React.Component {
     });
     lib.request(/*options*/{
       // This is the path for the videos contained within the staff picks channels
-      path : '/users/sniebauer/albums/4691400/videos',
+      path : '/users/sniebauer/albums/4691400/videos?sort=plays',
       // This adds the parameters to request page two, and 10 items per page
       query : {
           page : 1,
@@ -80,13 +80,13 @@ class WorkCarousel extends React.Component {
 
 
   }
-  
+
   render () {
     return (
 
       <Tabs className='Work-tabs' >
-    		<Tab title="Video" className='Work-tab'><Video data={this.state.data}/></Tab>
-    		<Tab title="Photo" active className='Work-tab'><Photos /></Tab>
+    		<Tab title="Video" active className='Work-tab'><Video data={this.state.data}/></Tab>
+    		<Tab title="Photo" className='Work-tab'><Photos /></Tab>
     		<Tab title="Web" className='Work-tab'>Web</Tab>
     </Tabs>
 
