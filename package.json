@@ -12,7 +12,8 @@
     "react-scripts": "1.0.10",
     "react-skylight": "^0.4.2",
     "react-slick": "^0.14.11",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "vimeo": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
