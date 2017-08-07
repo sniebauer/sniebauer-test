@@ -11,18 +11,12 @@ class Contact extends Component {
     return (
       <div className='Contact-div'>
         <h2 className="steves-h2">Contact</h2>
-        <Row>
-        <Col s={12} l={9} m={9} className='Contact-box'>
+
+        <div className='Contact-box'>
 
           <ContactForm />
 
-        </Col>
-        <Col s={12} l={3} m={3} className='Social-box'>
-
-          <Social />
-
-        </Col>
-        </Row>
+        </div>
 
       </div>
     )

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/Photos.css';
-import {Carousel} from 'react-materialize';
+import { Carousel } from 'react-materialize';
 
 
 class Photos extends Component {

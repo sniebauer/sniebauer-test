@@ -1,14 +1,18 @@
-.respVimEmbedDiv {
-  position: relative;
-  height:0;
-  padding-top: 56.25%;
-  width: 50px;
+.vimeo-modal-trigger a {
+  text-transform: uppercase;
+  color: white;
 }
 
-.respVimEmbed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
+.vimeo-modal-trigger img {
+  border: solid 3px white;
+}
+
+.vimeo-modal-trigger {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.vimeo-videos-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }

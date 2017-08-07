@@ -11,7 +11,7 @@
 .steves-h1 {
   border-top: 3px dotted white;
   border-bottom: 3px dotted white;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   padding: 5px;
   color: White;
   margin: 0 auto;
@@ -20,13 +20,11 @@
   min-width: auto;
   margin-top: 15px;
   font-weight: 300;
-  width: 320px;
+  width: 300px;
 }
 
 .steves-h2 {
   text-transform: uppercase;
-  border-top: 3px dotted white;
-  border-bottom: 3px dotted white;
   letter-spacing: 5px;
   padding: 7px;
   color: white;
@@ -52,7 +50,6 @@
 }
 
 
-
 .Contact-s, .About-s, .Work-s, .Footer-s, .Title-s {
   border: solid 3px white;
   margin: 30px;
@@ -61,13 +58,11 @@
 
 .About-s {
   background-color: #88bbd6;
-
 }
 
 
 .Work-s {
   background-color: #cdcdcd;
-
 }
 
 .Title-s {
@@ -96,7 +91,6 @@
   color: white;
   -o-text-overflow: clip;
   text-overflow: clip;
-
   background: -webkit-linear-gradient(27deg, rgb(221,238,255) 23%, rgba(0,0,0,0) 23%), -webkit-linear-gradient(27deg, rgba(0,0,0,0) 74%, rgb(221,238,255) 78%), -webkit-linear-gradient(27deg, rgba(0,0,0,0) 34%, rgb(221,238,255) 38%, rgb(221,238,255) 58%, rgba(0,0,0,0) 62%), rgba(255,255,255,1);
   background: -moz-linear-gradient(63deg, rgb(221,238,255) 23%, rgba(0,0,0,0) 23%), -moz-linear-gradient(63deg, rgba(0,0,0,0) 74%, rgb(221,238,255) 78%), -moz-linear-gradient(63deg, rgba(0,0,0,0) 34%, rgb(221,238,255) 38%, rgb(221,238,255) 58%, rgba(0,0,0,0) 62%), rgba(255,255,255,1);
   background: linear-gradient(63deg, rgb(221,238,255) 23%, rgba(0,0,0,0) 23%), linear-gradient(63deg, rgba(0,0,0,0) 74%, rgb(221,238,255) 78%), linear-gradient(63deg, rgba(0,0,0,0) 34%, rgb(221,238,255) 38%, rgb(221,238,255) 58%, rgba(0,0,0,0) 62%), rgba(255,255,255,1);
@@ -115,4 +109,32 @@
 
 body {
   background-color: white;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 200px) {
+  .below-title {
+    height: 100%;}
+  .Contact-s, .About-s, .Work-s, .Footer-s, .Title-s {
+      margin: 10px;
+    }
+  .Work-s img {
+    width: 95%;
+    }
+  }
+
+  @media (min-width: 420px) {
+    .Work-s img {
+      width: 95%;
+    }
+
+    }
+
+
+@media (min-width: 600px) {
+  .Contact-s, .About-s, .Work-s, .Footer-s, .Title-s {
+      margin: 20px;
+  }
 }
