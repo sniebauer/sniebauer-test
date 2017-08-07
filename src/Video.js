@@ -18,7 +18,7 @@ class Video extends Component {
 	             trigger={<div className='vimeo-modal-trigger'><a href='#'><img src={videoData.pictures.sizes[2].link_with_play_button} className='Vimeo-thumb'/><br />{videoData.name}</a></div>} key={videoData.name}>
 
                <div key={videoData.link}>
-                <ReactPlayer url={videoData.link} width='100%' height='300px' key={videoData.link} />
+                <ReactPlayer url={videoData.link} width='100%' key={videoData.link} />
                 </div>
                 <p key={videoData.description}>{videoData.description} <a href={videoData.link} target='_new'>View on Vimeo →</a></p>
               </Modal>
@@ -35,7 +35,7 @@ class Video extends Component {
         <Row>
           <div>{videos}</div>
         </Row>
-        <a href="https://vimeo.com/album/4691400/sort:plays/format:detail" target="_new" className="btn-2">More videos →</a>
+        <a href="https://vimeo.com/channels/sniebauer/" target="_new" className="btn-2">More videos →</a>
       </div>
 
 
