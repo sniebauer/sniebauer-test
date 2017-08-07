@@ -13,7 +13,7 @@
   width: 50%;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 220px) {
   .tabs.Work-tabs {
     width: 100%;
   }
@@ -31,8 +31,9 @@
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 175px;
 }
 
 .tabs.Work-tabs a {
@@ -42,7 +43,7 @@
   text-align: center;
   border: 3px white dashed;
   text-overflow: ellipsis;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
