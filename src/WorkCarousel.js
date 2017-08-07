@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/WorkCarousel.css';
-import { Tabs, Tab} from 'react-materialize';
+import { Tabs, Tab } from 'react-materialize';
 import Photos from "./Photos.js";
 import Video from './Video.js';
 import Web from './Web.js';

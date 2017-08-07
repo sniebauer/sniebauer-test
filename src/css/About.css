@@ -17,13 +17,13 @@
 
 }
 
-@media (min-width: 320px) {
+@media (min-width: 220px) {
   .About-photo img {
     width: 100%;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   .About-photo img {
     width: 75%;
   }
