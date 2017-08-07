@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './css/WorkCarousel.css';
 import { Tabs, Tab} from 'react-materialize';
 import Photos from "./Photos.js";
-import Video from './Video.js'
+import Video from './Video.js';
+import Web from './Web.js';
 import Vimeo from 'vimeo';
 const V = Vimeo.Vimeo;
 
@@ -87,7 +88,7 @@ class WorkCarousel extends React.Component {
       <Tabs className='Work-tabs' >
         <Tab title="Photo" className='Work-tab'><Photos /></Tab>
         <Tab title="Video" active className='Work-tab'><Video data={this.state.data} /></Tab>
-    		<Tab title="Web" className='Work-tab'> ¯\_(ツ)_/¯</Tab>
+    		<Tab title="Web" className='Work-tab'><Web /></Tab>
     </Tabs>
 
     );

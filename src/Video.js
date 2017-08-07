@@ -25,8 +25,6 @@ class Video extends Component {
             </div>
           </Col>
 
-
-
       )
     });
 
