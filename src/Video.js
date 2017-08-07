@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import {Row, Col, Modal} from 'react-materialize';
+import {Row, Col, Modal, Container} from 'react-materialize';
 import Vimeo from 'vimeo';
+import ReactPlayer from 'react-player'
+import Player from '@vimeo/player';
 const V = Vimeo.Vimeo;
 
 
@@ -16,7 +18,10 @@ class Video extends Component {
             <Modal
 	             header={videoData.name}
 	             trigger={<div><img src={videoData.pictures.sizes[2].link_with_play_button}/><br />{videoData.name}</div>}>
-	             <div><span dangerouslySetInnerHTML={{__html: videoData.embed.html}} /><br /><br />{videoData.description}</div>
+	             <div>
+               
+
+               <ReactPlayer url={videoData.link}  width='100%'  /></div><br />{videoData.description}
               </Modal>
             </div>
           </Col>

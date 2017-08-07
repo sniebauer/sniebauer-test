@@ -1,0 +1,14 @@
+.respVimEmbedDiv {
+  position: relative;
+  height:0;
+  padding-top: 56.25%;
+  width: 50px;
+}
+
+.respVimEmbed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}

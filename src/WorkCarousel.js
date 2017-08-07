@@ -42,12 +42,12 @@ class WorkCarousel extends React.Component {
     });
     lib.request(/*options*/{
       // This is the path for the videos contained within the staff picks channels
-      path : '/users/sniebauer/albums/4691400/videos?sort=plays',
+      path : '/users/sniebauer/albums/4691400/videos?sort=manual',
       // This adds the parameters to request page two, and 10 items per page
       query : {
           page : 1,
           per_page : 9,
-          fields: 'uri,name,description,duration,embed,pictures'
+          fields: 'uri,link,name,description,duration,embed,pictures'
       }
     }, /*callback*/function (error, body, status_code, headers) {
       if (error) {

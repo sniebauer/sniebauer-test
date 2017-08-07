@@ -8,6 +8,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-materialize": "^1.0.6",
+    "react-player": "^0.20.0",
     "react-scripts": "1.0.10",
     "react-skylight": "^0.4.2",
     "react-slick": "^0.14.11",
