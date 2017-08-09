@@ -3,8 +3,6 @@ import './css/Contact-form.css';
 import {Row} from 'react-materialize';
 
 class ReactFormLabel extends React.Component {
-
-
   render() {
     return(
       <label htmlFor={this.props.htmlFor}>{this.props.title}</label>
@@ -73,10 +71,7 @@ class ContactForm extends React.Component {
 
   render() {
     return(
-
-
       <Row>
-
 
           <form className='contact-form' action="https://www.enformed.io/hleree4v" method="POST">
             <fieldset className='form-group'>
@@ -109,22 +104,11 @@ class ContactForm extends React.Component {
             </div>
           </form>
 
-
       </Row>
-
-
-
-
-
-
-
 
     )
   }
 };
-
-
-
 
 
 export default ContactForm;

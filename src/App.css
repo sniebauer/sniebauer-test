@@ -125,12 +125,11 @@ body {
     }
   }
 
-  @media (min-width: 420px) {
-    .Work-s img {
-      width: 95%;
-    }
-
-    }
+@media (min-width: 420px) {
+  .Work-s img {
+    width: 95%;
+  }
+}
 
 
 @media (min-width: 600px) {

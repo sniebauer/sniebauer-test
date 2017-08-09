@@ -8,18 +8,12 @@ import Vimeo from 'vimeo';
 const V = Vimeo.Vimeo;
 
 
-
-
-
-
-
 class WorkCarousel extends React.Component {
   constructor() {
     super()
     this.state = {
       data: []
     }
-
   }
 
   componentDidMount() {
@@ -48,7 +42,7 @@ class WorkCarousel extends React.Component {
       query : {
           page : 1,
           per_page : 9,
-          fields: 'uri,link,name,description,duration,embed,pictures'
+          fields: 'uri,link,name,description,duration,embed,pictures,videoID'
       }
     }, /*callback*/function (error, body, status_code, headers) {
       if (error) {
@@ -68,9 +62,6 @@ class WorkCarousel extends React.Component {
       })
 
 
-
-
-
       console.log(body.data);
       //console.log('status code');
       // console.log(status_code);
@@ -79,21 +70,19 @@ class WorkCarousel extends React.Component {
 
     });
 
-
   }
 
   render () {
     return (
 
       <Tabs className='Work-tabs' >
-        <Tab title="Photo" className='Work-tab'><Photos /></Tab>
-        <Tab title="Video" active className='Work-tab'><Video data={this.state.data} /></Tab>
+        <Tab title="Photo" active className='Work-tab'><Photos /></Tab>
+        <Tab title="Video" className='Work-tab'><Video data={this.state.data} /></Tab>
     		<Tab title="Web" className='Work-tab'><Web /></Tab>
     </Tabs>
 
     );
   }
 }
-
 
 export default WorkCarousel;
