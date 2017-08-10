@@ -15,7 +15,7 @@ class Title extends Component {
         <Row>
           <Col l={6} s={0}></Col>
           <Col l={3} s={12}>
-            <p>Experienced support manager with a demonstrated history of working in the tech industry with a focus on video. Skilled in community management, video production & editing, support operations, frontend development, and product.</p>
+            <p></p>
           </Col>
         </Row>
 

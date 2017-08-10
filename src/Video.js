@@ -27,7 +27,7 @@ class Video extends Component {
                <div key={videoData.link}>
                 <ResponsiveEmbed src={vimEmbedId} allowFullScreen ratio='16:9' key={videoData.link} />
                 </div>
-                <p key={videoData.description}>{videoData.description} <a href={videoData.link} target='_new'>View on Vimeo →</a></p>
+                <p className='vimDesc' key={videoData.description}>{videoData.description} <a href={videoData.link} target='_new'>View on Vimeo →</a></p>
               </Modal>
             </div>
           </Col>
