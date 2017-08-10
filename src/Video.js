@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Row, Col, Modal, Container} from 'react-materialize';
+import {Row, Col, Modal} from 'react-materialize';
 import Vimeo from 'vimeo';
 import './css/Video.css';
 import ResponsiveEmbed from 'react-responsive-embed';
@@ -22,12 +22,12 @@ class Video extends Component {
             <Modal
 	             header={videoData.name}
                fixedFooter
-	             trigger={<div className='vimeo-modal-trigger'><a href='#'><img src={videoData.pictures.sizes[2].link_with_play_button} className='Vimeo-thumb'/><br />{videoData.name}</a></div>} key={videoData.name}>
+	             trigger={<div className='vimeo-modal-trigger'><a href='#'><img src={videoData.pictures.sizes[2].link_with_play_button} className='Vimeo-thumb' alt={videoData.name} /><br />{videoData.name}</a></div>} key={videoData.name}>
 
                <div key={videoData.link}>
                 <ResponsiveEmbed src={vimEmbedId} allowFullScreen ratio='16:9' key={videoData.link} />
                 </div>
-                <p className='vimDesc' key={videoData.description}>{videoData.description} <a href={videoData.link} target='_new'>View on Vimeo →</a></p>
+                <p className='vimDesc' key={videoData.description}>{videoData.description} <br /><br /><a href={videoData.link} target='_new'>View on Vimeo →</a></p>
               </Modal>
             </div>
           </Col>

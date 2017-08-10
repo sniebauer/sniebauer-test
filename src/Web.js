@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Row, Col, Modal, Container} from 'react-materialize';
+import {} from 'react-materialize';
 import './css/Web.css';
 
 

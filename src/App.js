@@ -16,7 +16,7 @@ class App extends Component {
 
     return (
       <div className="App">
-
+<section className='behind-title'>
           <section className='Header-s'>
             <Header />
           </section>
@@ -25,7 +25,7 @@ class App extends Component {
         <section className='Title-s'>
           <Title />
         </section>
-
+</section>
 <section className='below-title'>
           <a name='work'></a>
             <section className='Work-s'>

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './css/Contact.css';
 import ContactForm from './Contact-form.js';
-import Social from './Social.js';
-import {Row, Col} from 'react-materialize';
+
 
 
 

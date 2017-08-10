@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,600,700,800');
 
 .App {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Reem Kufi', sans-serif;
 
 }
 
@@ -135,5 +137,24 @@ body {
 @media (min-width: 600px) {
   .Contact-s, .About-s, .Work-s, .Footer-s, .Title-s {
       margin: 20px;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .behind-title {
+    background-image: url('http://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/caf4ccb7-1e79-4555-9e30-eb111099513e.jpg');
+    background-size: cover;
+    border: none;
+    height: 100%;
+  }
+  .Title-s {
+    height: 300px;
+  }
+  .steves-h1 {
+    font-size: 40px;
+  }
+  .steves-h2 {
+    margin: auto;
   }
 }
