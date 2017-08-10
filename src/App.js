@@ -16,43 +16,38 @@ class App extends Component {
 
     return (
       <div className="App">
-<section className='behind-title'>
+        <section className='behind-title'>
           <section className='Header-s'>
             <Header />
           </section>
 
 
-        <section className='Title-s'>
-          <Title />
+          <section className='Title-s'>
+            <Title />
+          </section>
         </section>
-</section>
-<section className='below-title'>
-          <a name='work'></a>
-            <section className='Work-s'>
+
+        <section className='below-title'>
+
+
+          <section className='Work-s' id='work'>
               <Work />
-            </section>
+          </section>
 
 
-
-          <a name='about'></a>
-            <section className='About-s'>
-              <About />
-            </section>
+          <section className='About-s' id='about'>
+            <About />
+          </section>
 
 
+          <section className='Contact-s' id='contact'>
+            <Contact />
+          </section>
 
-
-      <a name='contact'></a>
-      <section className='Contact-s'>
-      <Contact />
+          <section className='Footer-s'>
+            <Footer />
+          </section>
       </section>
-
-
-
-      <section className='Footer-s'>
-      <Footer />
-      </section>
-    </section>
 
       </div>
     );
