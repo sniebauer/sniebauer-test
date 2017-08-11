@@ -141,12 +141,12 @@ body {
 
 
 @media (max-width: 400px) {
-  .behind-title {
+  /*.behind-title {
     background-image: url('http://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/caf4ccb7-1e79-4555-9e30-eb111099513e.jpg');
     background-size: cover;
     border: none;
     height: 100%;
-  }
+  }*/
   .Title-s {
     height: 300px;
   }

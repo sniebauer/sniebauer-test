@@ -14,7 +14,7 @@ class Video extends Component {
 
       let vId = videoData.uri.split('/').pop();
       let vimEmbedId = 'https://player.vimeo.com/video/' + vId;
-      console.log(vimEmbedId);
+      //console.log(vimEmbedId);
 
       return (
 	       <Col s={12} m={6} l={4} key={videoData.name}>

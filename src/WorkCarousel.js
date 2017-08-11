@@ -55,14 +55,14 @@ class WorkCarousel extends React.Component {
 
       }
 
-      console.log(body);
+      //console.log(body);
       base.setState({
         data: body.data,
 
       })
 
 
-      console.log(body.data);
+      //console.log(body.data);
       //console.log('status code');
       // console.log(status_code);
       // console.log('headers');
