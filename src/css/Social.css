@@ -1,6 +1,10 @@
-
-
-
 .Social-div {
+ color: white;
+ 
+ top: 0;
+ right: 0;
+}
 
+.Social-div a {
+  color: white;
 }

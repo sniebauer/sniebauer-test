@@ -2,17 +2,29 @@
 .social-list {
   list-style: none;
   padding-left: 0px;
-
-  margin: auto;
-
+  float: right;
+  margin-right: 25px;
 }
 
 .icon-list {
-
+  display: inline;
   font-size: 1.5rem;
-  padding: 5px;
+  padding-left: 10px;
 }
 
 .footer-div p {
+  float: left;
+  margin-left: 25px;
+}
 
+.Social-div {
+ color: white;
+}
+
+.Social-div a {
+  color: white;
+}
+
+.Social-div a:hover {
+  color: black;
 }

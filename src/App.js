@@ -6,6 +6,7 @@ import About from './About.js';
 import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
+import Social from './Social.js';
 
 
 class App extends Component {
@@ -47,6 +48,8 @@ class App extends Component {
           <section className='Footer-s'>
             <Footer />
           </section>
+
+
       </section>
 
       </div>
