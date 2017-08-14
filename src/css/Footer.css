@@ -10,11 +10,13 @@
   display: inline;
   font-size: 1.5rem;
   padding-left: 10px;
+  padding-bottom: 2px;
 }
 
 .footer-div p {
   float: left;
   margin-left: 25px;
+
 }
 
 .Social-div {
@@ -26,5 +28,9 @@
 }
 
 .Social-div a:hover {
-  color: black;
+  color: #cdcdcd;
+}
+
+.social-float {
+  clear: both;
 }

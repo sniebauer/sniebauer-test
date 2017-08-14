@@ -28,6 +28,8 @@ class Footer extends Component {
           <li className='icon-list'><a href='https://www.instagram.com/sniebauer/' target='_new'><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
         </ul>
 
+        <span className='social-float'> </span>
+
         </div>
       </div>
 
