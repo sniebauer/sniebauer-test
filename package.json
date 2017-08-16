@@ -12,6 +12,7 @@
     "react-player": "^0.20.0",
     "react-responsive-embed": "^2.0.0",
     "react-scripts": "1.0.10",
+    "react-scroll": "^1.5.4",
     "react-skylight": "^0.4.2",
     "react-slick": "^0.14.11",
     "react-vimeo": "^1.0.0",
