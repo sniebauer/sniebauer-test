@@ -19,8 +19,6 @@ class Footer extends Component {
 
           <li className='icon-list'><a href='https://www.linkedin.com/in/sniebauer/' target='_new'><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 
-          <li className='icon-list'><a href='https://www.facebook.com/sniebauer' target='_new'><i className="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-
           <li className='icon-list'><a href='http://vimeo.com/sniebauer' target='_new'><i className="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
 
           <li className='icon-list'><a href='https://sniebauer.tumblr.com/' target='_new'><i className="fa fa-tumblr-square" aria-hidden="true"></i></a></li>
@@ -28,7 +26,7 @@ class Footer extends Component {
           <li className='icon-list'><a href='https://www.instagram.com/sniebauer/' target='_new'><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
         </ul>
 
-        <span className='social-float'> </span>
+        <span className='social-float'></span>
 
         </div>
       </div>

@@ -140,3 +140,7 @@
 .vimDesc {
   padding: 10px;
 }
+
+.Video-links:hover {
+    opacity:0.75;
+}

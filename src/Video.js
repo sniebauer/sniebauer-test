@@ -22,7 +22,7 @@ class Video extends Component {
             <Modal
 	             header={videoData.name}
                fixedFooter
-	             trigger={<div className='vimeo-modal-trigger'><a href='#'><img src={videoData.pictures.sizes[2].link_with_play_button} className='Vimeo-thumb' alt={videoData.name} /><br />{videoData.name}</a></div>} key={videoData.name}>
+	             trigger={<div className='vimeo-modal-trigger'><a href='#' className="Video-links"><img src={videoData.pictures.sizes[2].link_with_play_button} className='Vimeo-thumb' alt={videoData.name} /><br />{videoData.name}</a></div>} key={videoData.name}>
 
                <div key={videoData.link}>
                 <ResponsiveEmbed src={vimEmbedId} allowFullScreen ratio='16:9' key={videoData.link} />

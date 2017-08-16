@@ -6,7 +6,6 @@ import About from './About.js';
 import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
-import Social from './Social.js';
 import Scroll from 'react-scroll'; // Imports all Mixins
 import {scroller} from 'react-scroll'; //Imports scroller mixin, can use as scroller.scrollTo()
 

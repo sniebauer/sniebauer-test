@@ -53,9 +53,9 @@ class Header extends Component {
       <Col s={12}>
 
         <ul>
-          <li className='Header-li'><Link className='Header-a' to="work" spy={true} smooth={true} duration={500}>Work</Link></li>
-          <li className='Header-li'><Link className='Header-a' to="about" spy={true} smooth={true} duration={500}>About</Link></li>
-          <li className='Header-li'><Link className='Header-a' to="contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
+          <li className='Header-li'><Link className='Header-a' to="work" spy={true} smooth={true} duration={500} offset={-100} >Work</Link></li>
+          <li className='Header-li'><Link className='Header-a' to="about" spy={true} smooth={true} duration={500} offset={-100} >About</Link></li>
+          <li className='Header-li'><Link className='Header-a' to="contact" spy={true} smooth={true} duration={500} offset={-100} >Contact</Link></li>
           </ul>
           </Col>
           </Row>

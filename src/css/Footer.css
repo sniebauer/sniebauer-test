@@ -16,15 +16,18 @@
 .footer-div p {
   float: left;
   margin-left: 25px;
+  margin-top: 20px;
 
 }
 
 .Social-div {
  color: white;
+ margin-top: -3px;
 }
 
 .Social-div a {
   color: white;
+
 }
 
 .Social-div a:hover {
