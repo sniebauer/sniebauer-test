@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {} from 'react-materialize';
+import {Col, Row, } from 'react-materialize';
 import './css/Web.css';
 
 
@@ -13,7 +13,7 @@ class Web extends Component {
         <ul>
           <li><a href="https://vimeo.com/blog/author/sniebauer" target="new">Vimeo Blog writings</a></li>
 
-          <li><a href="https://vimeo.com/blog/author/sniebauer" target="new">Vimeo Blog writings</a></li>
+          <li><a href="https://vimeo.com/blog/author/sniebauer" target="new"></a></li>
 
 
         </ul>
