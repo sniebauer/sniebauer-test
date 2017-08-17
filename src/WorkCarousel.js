@@ -42,7 +42,7 @@ class WorkCarousel extends React.Component {
       query : {
           page : 1,
           per_page : 9,
-          fields: 'uri,link,name,description,duration,embed,pictures,videoID'
+          fields: 'uri,link,name,description,duration,embed,pictures'
       }
     }, /*callback*/function (error, body, status_code, headers) {
       if (error) {

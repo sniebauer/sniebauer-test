@@ -9,7 +9,7 @@ class Title extends Component {
     return (
       <div className='Title-div'>
         <h1 className='steves-h1'>{name}</h1>
-        <video autoPlay loop id="Video-background" muted >
+        <video autoPlay loop id="Video-background" muted poster="https://dr56wvhu2c8zo.cloudfront.net/sniebauer/assets/7948416a-a6a0-4afd-9500-5e3b7951f289.jpg">
         <source src="https://player.vimeo.com/external/223207383.sd.mp4?s=ca8f996e038f9676104d64387db2e38140ab2d3a&profile_id=165" type="video/mp4" />
         </video>
         <Row>
