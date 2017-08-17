@@ -149,6 +149,7 @@ body {
     height: 100%;
     padding-top:5px !important;
   }
+
   .Title-s {
     height: 300px;
     background: none;
@@ -161,5 +162,6 @@ body {
   .steves-h2 {
     margin: auto;
   }
+
 
 }

@@ -5,17 +5,13 @@
   padding-top: 20px;
 }
 
-
-
 .photo-carousel {
   border: solid white 3px;
   margin: auto;
   margin-bottom: 20px;
   width: 75%;
   text-align: center;
-
 }
-
 
 .carousel .indicators .indicator-item {
   display: inline-block;
@@ -32,4 +28,10 @@
 
 .carousel .indicators .indicator-item.active {
   background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .photo-carousel {
+    width: 100%;
+  }
 }
