@@ -6,13 +6,23 @@ import About from './About.js';
 import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
+import ScrollEvent from 'react-onscroll';
 
 
 
 
 
 class App extends Component {
+  constructor(props) {
+  		super(props);
 
+  		this.handleScrollCallback = this.handleScrollCallback.bind(this);
+  	}
+
+  	handleScrollCallback() {
+  		console.log("A scroll event occurred!");
+
+  	}
 
 
   render() {
@@ -20,10 +30,14 @@ class App extends Component {
 
     return (
       <div className="App">
+        <div>
+              <ScrollEvent handleScrollCallback={this.handleScrollCallback} />
+        </div>
         <section className='behind-title'>
           <section className='Header-s'>
             <Header />
           </section>
+
 
 
           <section className='Title-s'>

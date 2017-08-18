@@ -13,7 +13,7 @@ class Web extends Component {
         <ul>
           <li><a href="https://vimeo.com/blog/author/sniebauer" target="new">Vimeo Blog writings</a></li>
 
-          <li><a href="https://vimeo.com/blog/author/sniebauer" target="new"></a></li>
+          <li><a href="https://vimeo.com/blog/author/sniebauer" target="new">asdfasdf</a></li>
 
 
         </ul>
