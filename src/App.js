@@ -10,8 +10,6 @@ import ScrollEvent from 'react-onscroll';
 
 
 
-
-
 class App extends Component {
   constructor(props) {
   		super(props);
