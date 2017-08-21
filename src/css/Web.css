@@ -1,0 +1,18 @@
+.Web-div {
+  text-align: center;
+  margin: auto;
+}
+
+
+table {
+  border: 3px white solid;
+  margin: 20px auto;
+  width: 60%;
+
+}
+
+td, th {
+  border: 3px white solid;
+  text-align: center;
+
+}
