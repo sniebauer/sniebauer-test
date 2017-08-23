@@ -7,60 +7,75 @@ import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
 import ScrollEvent from 'react-onscroll';
-
+import ScrollReveal from 'scrollreveal';
 
 
 class App extends Component {
-  constructor(props) {
-  		super(props);
 
-  		this.handleScrollCallback = this.handleScrollCallback.bind(this);
-  	}
 
-  	handleScrollCallback() {
-  		console.log("A scroll event occurred!");
+componentDidMount = () => {
+    const config = {
+          origin: 'bottom',
+          duration: 5000,
+          delay: 1500,
+          distance: '100px',
+          scale: 1,
+          easing: 'ease',
+          reset: true,
+          opacity: 0,
+          mobile: true,
+          viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
+          rotate: { x: 5, y: 10, z: 5 },
+          viewFactor: .9,
 
-  	}
+
+        }
+        ScrollReveal().reveal(this.refs.box1, config)
+      }
+
+
+
 
 
   render() {
 
 
     return (
-      <div className="App">
-        <div>
-              <ScrollEvent handleScrollCallback={this.handleScrollCallback} />
-        </div>
-        <section className='behind-title'>
+      <div className="App" >
+
+
+        <section className='behind-title' >
           <section className='Header-s'>
             <Header />
           </section>
-
-
 
           <section className='Title-s'>
             <Title />
           </section>
         </section>
 
+        <div ref='box1' className='logo-fade'>
+          <h4>SNIEBAUER</h4>
+        </div>
+
         <section className='below-title'>
 
 
-          <section className='Work-s' id='work'>
+          <section className='Work-s' id='work' >
               <Work />
           </section>
 
 
-          <section className='About-s' id='about'>
+          <section className='About-s' id='about' >
             <About />
           </section>
 
 
-          <section className='Contact-s' id='contact'>
+          <section className='Contact-s' id='contact' >
             <Contact />
           </section>
 
-          <section className='Footer-s'>
+          <section className='Footer-s' >
             <Footer />
           </section>
 
