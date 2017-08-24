@@ -44,25 +44,7 @@ class Header extends Component {
       Events.scrollEvent.remove('end');
     }
 
-    componentDidMount = () => {
-        const config = {
-              origin: 'bottom',
-              duration: 2500,
-              delay: 1500,
-              distance: '100px',
-              scale: 1,
-              easing: 'ease',
-              reset: true,
-              opacity: 0,
-              mobile: true,
-              viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
-              rotate: { x: 5, y: 10, z: 5 },
-              viewFactor: .9,
-
-
-            }
-            ScrollReveal().reveal(this.refs.box2, config)
-          }
+    
 
   render() {
 
