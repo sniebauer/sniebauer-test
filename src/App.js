@@ -16,21 +16,22 @@ class App extends Component {
 componentDidMount = () => {
     const config = {
           origin: 'bottom',
-          duration: 5000,
-          delay: 1500,
+          duration: 1000,
+          delay: 200,
           distance: '100px',
           scale: 1,
           easing: 'ease',
-          reset: true,
+          reset: false,
           opacity: 0,
           mobile: true,
           viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
           rotate: { x: 5, y: 10, z: 5 },
-          viewFactor: .9,
+          viewFactor: .1,
 
 
         }
         ScrollReveal().reveal(this.refs.box1, config)
+
       }
 
 
@@ -54,7 +55,7 @@ componentDidMount = () => {
           </section>
         </section>
 
-        <div ref='box1' className='logo-fade'>
+        <div className='logo-fade' ref='box1'>
           <h4>SNIEBAUER</h4>
         </div>
 

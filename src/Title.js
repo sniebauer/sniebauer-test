@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'react-materialize';
-import './css/Title.css'
+import './css/Title.css';
 
 
 class Title extends Component {
