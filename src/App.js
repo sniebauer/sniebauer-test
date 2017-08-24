@@ -12,10 +12,6 @@ import ScrollEvent from 'react-onscroll';
 
 class App extends Component {
 
-<<<<<<< HEAD
-
-
-=======
 componentDidMount = () => {
     const config = {
           origin: 'bottom',
@@ -36,7 +32,6 @@ componentDidMount = () => {
         ScrollReveal().reveal(this.refs.box1, config)
 
       }
->>>>>>> 3d4df1069905ab6c620f21f66359e23743df2fe8
 
 
 
@@ -59,11 +54,8 @@ componentDidMount = () => {
           </section>
         </section>
 
-<<<<<<< HEAD
-        <div className='logo-fade'>
-=======
         <div className='logo-fade' ref='box1'>
->>>>>>> 3d4df1069905ab6c620f21f66359e23743df2fe8
+
           <h4>SNIEBAUER</h4>
         </div>
 
