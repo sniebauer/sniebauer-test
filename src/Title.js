@@ -1,29 +1,12 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'react-materialize';
 import './css/Title.css';
+import ScrollReveal from 'scrollreveal';
 
 
 
 class Title extends Component {
-  componentDidMount = () => {
-      const config = {
-            origin: 'bottom',
-            duration: 4000,
-            delay: 500,
-            distance: '500px',
-            scale: 1,
-            easing: 'ease',
-            reset: false,
-            opacity: 0,
-            mobile: true,
-            viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
-            rotate: { x: 5, y: 10, z: 5 },
-            viewFactor: .9,
-
-
-          }
-          ScrollReveal().reveal(this.refs.box1, config)
-        }
+  
 
 
 

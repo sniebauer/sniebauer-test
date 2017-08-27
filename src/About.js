@@ -14,15 +14,18 @@ class About extends Component {
           <img src={me} alt='Steve Niebauer' />
           </Col>
 	       <Col s={12} l={6} m={6} className='About-p'>
-          <p>Experienced support manager with a demonstrated history of working in the tech industry with a focus on video. Skilled in community management, video production & editing, support operations, frontend development, and product.</p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+          <p>Experienced support manager with a demonstrated history of working in the video-tech industry. Skilled in community management, video production & editing, support operations, frontend development, and product.</p>
+          <p>Here are some things I know and like:</p>
           <ul>
-            <li>asdfasdfasdf</li>
-            <li>asdfasdfasdf</li>
-            <li>asdfasdfasdf</li>
-            <li>asdfasdfasdf</li>
-            <li>asdfasdfasdf</li>
-            </ul>
+            <li>Support operations</li>
+            <li>HTML/CSS/Javascript</li>
+            <li>React JS</li>
+            <li>Video editing with Adobe & Apple products</li>
+            <li>Photography</li>
+            <li>Video production</li>
+            <li>Support operations</li>
+
+          </ul>
 
           </Col>
         </Row>

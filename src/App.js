@@ -7,28 +7,31 @@ import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
 import ScrollEvent from 'react-onscroll';
+import ScrollReveal from 'scrollreveal';
+
+
+
 
 
 
 class App extends Component {
 
-componentDidMount = () => {
+
+  componentDidMount = () => {
     const config = {
-          origin: 'bottom',
-          duration: 1000,
-          delay: 200,
-          distance: '100px',
-          scale: 1,
-          easing: 'ease',
-          reset: false,
-          opacity: 0,
-          mobile: true,
-          viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
-          rotate: { x: 5, y: 10, z: 5 },
-          viewFactor: .1,
+      origin: 'bottom',
+      duration: 1000,
+      delay: 100,
+      distance: '20px',
+      scale: 1,
+      easing: 'ease',
+      reset: false,
+      opacity: 0,
+      mobile: true,
 
 
-        }
+
+    }
         ScrollReveal().reveal(this.refs.box1, config)
 
       }
@@ -54,10 +57,7 @@ componentDidMount = () => {
           </section>
         </section>
 
-        <div className='logo-fade' ref='box1'>
 
-          <h4>SNIEBAUER</h4>
-        </div>
 
         <section className='below-title'>
 

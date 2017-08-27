@@ -4,15 +4,13 @@
 }
 
 
-table {
-  border: 3px white solid;
-  margin: 20px auto;
-  width: 60%;
+.Web-li {
+  list-style: square;
+  text-transform: uppercase;
 
 }
 
-td, th {
-  border: 3px white solid;
-  text-align: center;
-
+.Web-div li {
+  list-style: square;
+  text-transform: uppercase;
 }
