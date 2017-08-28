@@ -4,13 +4,24 @@
 }
 
 
-.Web-li ul {
-  list-style-type: disc;
+.Web-div a {
+  color: white;
+  text-decoration: underline;
+}
+
+.Web-div a:hover {
+  color: #88bbd6;
+}
+
+
+.Web-ul {
+  padding-left: 30px;
   text-transform: uppercase;
+  margin: auto;
+  margin-top: 25px;
 
 }
 
-.Web-div li {
-  list-style-type: square !important;
-  text-transform: uppercase;
+.Web-li {
+  padding: 10px;
 }

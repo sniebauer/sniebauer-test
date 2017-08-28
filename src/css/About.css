@@ -5,16 +5,13 @@
 
 .About-p {
   font-size: 15px;
-  
   margin-top: 20px;
   text-align: left;
 }
 
-
 .About-photo img {
   border: 3px solid white;
   margin-top: 20px;
-
 }
 
 @media (min-width: 220px) {
@@ -27,4 +24,25 @@
   .About-photo img {
     width: 75%;
   }
+}
+
+.About-p a {
+  color: white;
+  text-decoration: underline;
+}
+
+.About-p a:hover {
+  color: #cdcdcd;
+}
+
+
+.About-ul {
+  padding-left: 30px;
+  list-style-type: square !important;
+
+}
+
+.About-li {
+  list-style-type: square !important;
+  margin-left: 30px !important;
 }
