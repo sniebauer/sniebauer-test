@@ -15,15 +15,11 @@ class Web extends Component {
 
           <li><a href="http://heydoggies.tumblr.com/" target="new">Hey Doggies!</a> - Tumblr site with curated photos and video of cute dogs, etc.</li>
 
-          <li><a href="http://heydoggies.tumblr.com/" target="new">Hey Doggies!</a> - Tumblr site with curated photos and video of cute dogs, etc.</li>
+          <li><a href="http://help.vhx.tv/" target="new">VimeoVHX Seller Support</a> - asdfasdfasdfasfasdasfdasfasdfasdf</li>
 
-          <li><a href="http://heydoggies.tumblr.com/" target="new">Hey Doggies!</a> - Tumblr site with curated photos and video of cute dogs, etc.</li>
+          <li><a href="http://support.vhx.tv/" target="new">VimeoVHX Customer Support</a> - asdfasdfasdfasfasdasfdasfasdfasdf</li>
 
-          <li><a href="http://heydoggies.tumblr.com/" target="new">Hey Doggies!</a> - Tumblr site with curated photos and video of cute dogs, etc.</li>
 
-          <li><a href="http://heydoggies.tumblr.com/" target="new">Hey Doggies!</a> - Tumblr site with curated photos and video of cute dogs, etc.</li>
-
-          <li><a href="http://heydoggies.tumblr.com/" target="new">Hey Doggies!</a> - Tumblr site with curated photos and video of cute dogs, etc.</li>
 
 
         </ul>

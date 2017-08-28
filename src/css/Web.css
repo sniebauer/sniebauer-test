@@ -4,13 +4,13 @@
 }
 
 
-.Web-li {
-  list-style: square;
+.Web-li ul {
+  list-style-type: disc;
   text-transform: uppercase;
 
 }
 
 .Web-div li {
-  list-style: square;
+  list-style-type: square !important;
   text-transform: uppercase;
 }
