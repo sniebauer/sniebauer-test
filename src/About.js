@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import me from './me.jpg';
+import me from './sniebauer.gif';
 import './css/About.css';
 import {Row, Col, Container} from 'react-materialize';
 
