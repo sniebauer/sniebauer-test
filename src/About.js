@@ -14,7 +14,7 @@ class About extends Component {
           <img src={me} alt='Steve Niebauer' />
           </Col>
 	       <Col s={12} l={6} m={6} className='About-p'>
-          <p>Hi there! My name is Steve & I'm a support manager in the video-tech industry. I got my start right out of school at a little video site called <a href="http://vimeo.com/" target="new">Vimeo</a>. I then moved on to help start & scale the product & support department at video startup, <a href="https://vimeo.com/226501794" target="new">VHX</a>, which <a href="https://techcrunch.com/2016/05/02/vimeo-acquires-vhx-to-boost-its-video-on-demand-business/" target="new">got aquired by Vimeo in 2016</a>, where I am currently employed (again). I reside in Chicago with my wife and active son, <a href="#top">Felix</a>.</p>
+          <p>Hi there! My name is Steve & I'm a support manager in the video-tech industry. I got my start right out of school at a little video site called <a href="http://vimeo.com/" target="new">Vimeo</a>. I then moved on to help start & scale the product & support department at video startup, <a href="https://vimeo.com/226501794" target="new">VHX</a>, which <a href="https://techcrunch.com/2016/05/02/vimeo-acquires-vhx-to-boost-its-video-on-demand-business/" target="new">got aquired by Vimeo in 2016</a>, where I am currently employed (again). I reside in Chicago with my wife, active son, <a href="#top">Felix</a>, and dog, <a href="https://vimeo.com/35639629" target="new">Lucy</a>.</p>
 
           <p>Here are some things I know & like:</p>
 
