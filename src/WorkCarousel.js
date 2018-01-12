@@ -76,8 +76,8 @@ class WorkCarousel extends React.Component {
     return (
 
       <Tabs className='Work-tabs' >
-        <Tab title="Video" className='Work-tab'><Video data={this.state.data} /></Tab>
-        <Tab title="Photo" active className='Work-tab'><Photos /></Tab>
+        <Tab title="Photo" className='Work-tab'><Photos /></Tab>
+        <Tab title="Video" active className='Work-tab'><Video data={this.state.data} /></Tab>
     		<Tab title="Web" className='Work-tab'><Web /></Tab>
     </Tabs>
 
