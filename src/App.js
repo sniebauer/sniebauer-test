@@ -6,7 +6,6 @@ import About from './About.js';
 import Work from './Work.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
-import ScrollEvent from 'react-onscroll';
 import ScrollReveal from 'scrollreveal';
 
 

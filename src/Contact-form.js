@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/Contact-form.css';
 import {Row} from 'react-materialize';
 

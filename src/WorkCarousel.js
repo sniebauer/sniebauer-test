@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/WorkCarousel.css';
 import { Tabs, Tab } from 'react-materialize';
 import Photos from "./Photos.js";
@@ -76,9 +76,9 @@ class WorkCarousel extends React.Component {
     return (
 
       <Tabs className='Work-tabs' >
-        <Tab title="Photo" active className='Work-tab'><Photos /></Tab>
         <Tab title="Video" className='Work-tab'><Video data={this.state.data} /></Tab>
-//     		<Tab title="CV" className='Work-tab'><Web /></Tab>
+        <Tab title="Photo" active className='Work-tab'><Photos /></Tab>
+  
     </Tabs>
 
     );

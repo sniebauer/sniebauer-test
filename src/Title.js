@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'react-materialize';
 import './css/Title.css';
-import ScrollReveal from 'scrollreveal';
+
 
 
 
 class Title extends Component {
-  
+
 
 
 

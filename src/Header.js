@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './css/Header.css';
 import {Row, Col} from 'react-materialize';
 import Scroll from 'react-scroll'; // Imports all Mixins
-import {scroller} from 'react-scroll'; //Imports scroller mixin, can use as scroller.scrollTo()
-import ScrollReveal from 'scrollreveal';
 var Link       = Scroll.Link;
 var DirectLink = Scroll.DirectLink;
 var Element    = Scroll.Element;
@@ -44,7 +42,7 @@ class Header extends Component {
       Events.scrollEvent.remove('end');
     }
 
-    
+
 
   render() {
 
