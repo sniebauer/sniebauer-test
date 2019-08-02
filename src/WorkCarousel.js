@@ -33,7 +33,7 @@ class WorkCarousel extends React.Component {
         // Other useful information is included alongside the access token
         // We include the final scopes granted to the token. This is important because the user (or api) might revoke scopes during the authentication process
         let scopes = access_token.scope;
-        console.log('token info', token, scopes);
+        // console.log('token info', token, scopes);
     });
     lib.request(/*options*/{
       // This is the path for the videos contained within the staff picks channels
@@ -49,8 +49,8 @@ class WorkCarousel extends React.Component {
           console.log('error');
           console.log(error);
       } else {
-          console.log('body');
-          console.log(body);
+          console.log('hi');
+          // console.log(body);
 
 
       }
@@ -78,7 +78,7 @@ class WorkCarousel extends React.Component {
       <Tabs className='Work-tabs' >
         <Tab title="Video" className='Work-tab'><Video data={this.state.data} /></Tab>
         <Tab title="Photo" active className='Work-tab'><Photos /></Tab>
-  
+
     </Tabs>
 
     );
